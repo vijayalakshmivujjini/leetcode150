@@ -1,0 +1,39 @@
+Scan for key cues:
+
+“Contiguous” → Kadane
+
+“Longest / Shortest / Unique” → Sliding Window
+
+“Pairs / complements” → Hash Map
+
+“Palindrome / reverse / symmetry” → Two Pointers / Expand Around Center
+
+“Nested parentheses / LIFO” → Stack
+
+“Sorted / search for target” → Binary Search
+
+
+| Question                                                 | Pattern                    | Difficulty | Notes / Sub-pattern                         |
+| -------------------------------------------------------- | -------------------------- | ---------- | ------------------------------------------- |
+| Two Sum                                                  | Hash Map                   | Easy       | Fast complement lookup                      |
+| Best Time to Buy and Sell Stock                          | Array / Kadane variant     | Easy       | Track min price, compute max profit         |
+| Contains Duplicate                                       | Hash Set                   | Easy       | Detect duplicates in array                  |
+| Product of Array Except Self                             | Prefix / Suffix            | Medium     | No division, track left/right products      |
+| Maximum Subarray                                         | Kadane                     | Medium     | Track running sum, reset if negative        |
+| Maximum Product Subarray                                 | Kadane variant             | Medium     | Track max/min product dynamically           |
+| Find Minimum in Rotated Sorted Array                     | Binary Search              | Medium     | Rotated sorted array search                 |
+| Search in Rotated Sorted Array                           | Binary Search              | Medium     | Rotated sorted array search                 |
+| 3Sum                                                     | Sorting + Two Pointers     | Medium     | Avoid duplicates, sum = 0                   |
+| Container With Most Water                                | Two Pointers               | Medium     | Max area using left/right pointers          |
+| Longest Substring Without Repeating Characters           | Sliding Window (variable)  | Medium     | Expand/shrink window using HashSet          |
+| Longest Repeating Character Replacement                  | Sliding Window (variable)  | Medium     | Track max char count in window              |
+| Valid Anagram                                            | Hash Map                   | Easy       | Count frequencies                           |
+| Group Anagrams                                           | Hash Map                   | Medium     | Map sorted string → list                    |
+| Valid Parentheses                                        | Stack                      | Easy       | LIFO matching of brackets                   |
+| Valid Palindrome                                         | Two Pointers               | Easy       | Compare characters from both ends           |
+| Longest Palindromic Substring                            | Expand Around Center       | Medium     | Check palindrome at each center             |
+| Palindromic Substrings                                   | Expand Around Center       | Medium     | Count all palindromes                       |
+| Palindrome Number                                        | Math / Number Manipulation | Easy       | Reverse half of number or convert to string |
+| Reverse Integer                                          | Math / Number Manipulation | Easy       | Reverse digits with overflow check          |
+| Length of Longest Substring Without Repeating Characters | Sliding Window             | Medium     | Dynamic window + HashSet                    |
+| Maximum Subarray (your code)                             | Kadane                     | Medium     | Contiguous sum → reset if negative          |
